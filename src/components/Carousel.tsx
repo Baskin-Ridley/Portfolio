@@ -1,9 +1,11 @@
 import React, { useCallback } from 'react'
 import useEmblaCarousel from 'embla-carousel-react'
+import data from "../database/data"
 
 const EmblaCarousel = () => {
   const [emblaRef, emblaApi] = useEmblaCarousel()
 
+  
   
   const scrollMiddle = useCallback(() => {
     if (emblaApi) emblaApi.scrollNext()
@@ -31,7 +33,7 @@ const EmblaCarousel = () => {
     if (emblaApi) emblaApi.scrollNext()
   }, [emblaApi])
 
-
+    
   
   return (
     <div className="embla">
@@ -47,8 +49,7 @@ const EmblaCarousel = () => {
           <div className="embla__slide">Slide 8</div>
           <div className="embla__slide">Slide 9</div>
           <div className="embla__slide">Slide 10</div>
-          <div className="embla__slide">Slide 11</div>
-          <div className="embla__slide">Slide 12</div>
+          
         </div>
       </div>
       <button className="embla__prev" onClick={scrollPrev}>
