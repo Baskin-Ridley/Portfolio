@@ -1,7 +1,14 @@
 import React from 'react'
 import portrait from "../assets/pexels-vincent-tan-6934325.jpg"
+import EmblaCarousel from './Carousel';
+
+
+
 
 const About = () => {
+
+
+    
   return (
     <div className="aboutContainer">
         <h2 className="aboutTitle">About</h2>
@@ -11,7 +18,7 @@ const About = () => {
             </p>
             <img className="portrait" src={portrait} alt="portrait"/>
         </div>
-        <div className="techStack">Tech Stack</div>
+        <div className="techStack"><EmblaCarousel/></div>
     </div>
   )
 }

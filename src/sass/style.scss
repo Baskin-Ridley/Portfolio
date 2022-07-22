@@ -67,11 +67,29 @@
     margin-right: 10px;
   }
 
+
+
+//About Carousel
 .techStack {
     background-color: red;
     width: 100%;
     height: 50px
 }
+
+.embla {
+    overflow: hidden;
+  }
+  .embla__container {
+    display: flex;
+  }
+  .embla__slide {
+    position: relative;
+    flex: 0 0 100%;
+  }
+
+  .embla__slide {
+    flex: 0 0 12%; /* Slide covers 50% of the viewport */
+  }
 
 //projects
 
