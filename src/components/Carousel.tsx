@@ -4,6 +4,25 @@ import useEmblaCarousel from 'embla-carousel-react'
 const EmblaCarousel = () => {
   const [emblaRef, emblaApi] = useEmblaCarousel()
 
+  
+  const scrollMiddle = useCallback(() => {
+    if (emblaApi) emblaApi.scrollNext()
+  }, [emblaApi])
+
+  for (let i = 0; i < 3; i++) {
+    scrollMiddle()
+  }
+
+  // auto scroll
+  React.useEffect(() => {
+    if (!emblaApi) return
+    const interval = setInterval(() => {
+      emblaApi.scrollNext()
+    }, 3000)
+    return () => clearInterval(interval)
+  } , [emblaApi])
+
+
   const scrollPrev = useCallback(() => {
     if (emblaApi) emblaApi.scrollPrev()
   }, [emblaApi])
