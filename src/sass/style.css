@@ -116,9 +116,7 @@
 }
 
 .techStack {
-  background-color: red;
   width: 100%;
-  height: 50px;
 }
 
 .embla {
@@ -129,6 +127,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  gap: 20px;
 }
 
 .embla__slide {
@@ -143,6 +142,10 @@
       -ms-flex: 0 0 12%;
           flex: 0 0 12%;
   /* Slide covers 50% of the viewport */
+}
+
+.embla__image {
+  width: 100%;
 }
 
 .projectContainer {
