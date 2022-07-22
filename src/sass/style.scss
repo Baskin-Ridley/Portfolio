@@ -6,13 +6,21 @@
 }
 
 .App {
-    
     width: 60%;
     margin-top: 15px;
     margin-left: 20%;
     margin-right: 20%;
 }
 
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+//Header
 .header {
     display: flex;
     flex-direction: row;
@@ -26,12 +34,79 @@
     gap: 10px;
   }
 
+//about page
 
+.aboutContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.aboutContent {
+    //consider coming back to fix the gap
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+    gap: 75px;
+}
+
+@media (max-width: 768px) {
+    .aboutContent {
+        flex-direction: column-reverse;
+        gap: 15px;
+    }
+}
 
 .portrait {
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     margin-right: 10px;
   }
 
+.techStack {
+    background-color: red;
+    width: 100%;
+    height: 50px
+}
+
+//projects
+
+.projectContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+//contact
+
+.contactContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+//footer
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
