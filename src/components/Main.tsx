@@ -1,8 +1,12 @@
+
 import React from 'react'
 
 const Main = () => {
+  
   return (
     <div className="mainContainer">
+      
+
         <p className="mainText">
           Hi, I'm Gabriel.
         </p>
