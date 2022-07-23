@@ -1,1 +1,36 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+.App {
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+}
+
+@media (max-width: 768px) {
+  .App {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+}
+
+.leftContainer {
+  background-color: #2E304B;
+}
+
+@media (max-width: 768px) {
+  .leftContainer {
+    height: 100vh;
+  }
+}
+
+.rightContainer {
+  background-color: #fd8e8e;
+}
+
+.portrait {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+/*# sourceMappingURL=style.css.map */
