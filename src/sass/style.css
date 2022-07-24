@@ -68,6 +68,7 @@ input {
   height: 100vh;
   position: -webkit-sticky;
   position: sticky;
+  top: 0;
 }
 
 @media (max-width: 768px) {
