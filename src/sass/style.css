@@ -14,7 +14,7 @@
 }
 
 .leftContainer {
-  background-color: #2E304B;
+  background-color: #7ea8be;
 }
 
 @media (max-width: 768px) {
@@ -23,8 +23,48 @@
   }
 }
 
+.mainContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 20px;
+  margin-left: 10%;
+  margin-right: 45%;
+  height: 100vh;
+  color: #c7f9cc;
+}
+
+.scrollButton {
+  background-color: #7ea8be;
+  border: solid 2px #c7f9cc;
+  color: #c7f9cc;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+  font-weight: bold;
+}
+
+.scrollButton:hover {
+  background-color: #c7f9cc;
+  color: #7ea8be;
+}
+
 .rightContainer {
-  background-color: #fd8e8e;
+  background-color: #c7f9cc;
 }
 
 .portrait {

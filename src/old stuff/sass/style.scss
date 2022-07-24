@@ -41,7 +41,7 @@
 }
 
 .scrollButton {
-    //create a button with rounded corners
+    
     background-color: #2E304B;
     border-color: #fd8e8e;
     padding: 10px 20px;
@@ -79,9 +79,9 @@
     
   }
 
-//about page
+//main page
 
-.aboutContainer {
+.mainContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -89,7 +89,7 @@
     margin-top: 20px;
 }
 
-.aboutContent {
+.mainContent {
     //consider coming back to fix the gap
     display: flex;
     flex-direction: row;

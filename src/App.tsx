@@ -1,12 +1,12 @@
 import React from 'react';
 import './sass/style.css';
-import About from './components/about';
+import Main from './components/main';
 import Landing from './components/landing';
 function App() {
   return (
     <div className="App">
       <div className="leftContainer">
-        <About />
+        <Main />
       </div>
       <div className="rightContainer">
         <Landing/>
