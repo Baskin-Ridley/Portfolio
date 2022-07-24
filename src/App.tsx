@@ -8,6 +8,9 @@ function App() {
     <div className="App">
       <div className="leftContainer">
         <Main />
+        <div className="leftPlaceholder">
+          
+        </div>
       </div>
       <div className="rightContainer">
         <Landing/>

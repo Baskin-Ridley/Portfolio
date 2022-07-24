@@ -1,8 +1,59 @@
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: none;
+     -moz-text-size-adjust: none;
+      -ms-text-size-adjust: none;
+          text-size-adjust: none;
+}
+
+footer, header, nav, section, main {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+
 .App {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[2];
-      grid-template-columns: repeat(2, 1fr);
+  -ms-grid-columns: minmax(0, 1fr) minmax(0, 1fr);
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
 }
 
 @media (max-width: 768px) {
@@ -15,7 +66,8 @@
 .leftContainer {
   background-color: #7ea8be;
   height: 100vh;
-  width: 50vh;
+  position: -webkit-sticky;
+  position: sticky;
 }
 
 @media (max-width: 768px) {
@@ -71,7 +123,14 @@
 .portrait {
   -o-object-fit: cover;
      object-fit: cover;
-  height: 100vh;
+  height: 100%;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .portrait {
+    height: 100vh;
+  }
 }
 
 .aboutContainer {
@@ -92,42 +151,10 @@
   max-width: 50vh;
 }
 
-/*
 .techStack {
-    
-    
-    
+  width: 95%;
 }
 
-.embla {
-    overflow: hidden;
-  }
-  .embla__container {
-    display: flex;
-    gap: 20px;
-    
-  }
-  .embla__slide {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    flex: 0 0 100%;
-    
-  }
-
-  .embla__slide {
-    flex: 0 0 12.5%; 
-    
-  }
-
-  .embla__image {
-    width: 70%;
-    height: 70%;
-  }
-
-  */
 .embla {
   overflow: hidden;
 }
@@ -136,6 +163,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  gap: 20px;
 }
 
 .embla__slide {
@@ -154,7 +182,35 @@
           justify-content: center;
   position: relative;
   -webkit-box-flex: 0;
+      -ms-flex: 0 0 100%;
+          flex: 0 0 100%;
+}
+
+.embla__slide {
+  -webkit-box-flex: 0;
       -ms-flex: 0 0 12.5%;
           flex: 0 0 12.5%;
 }
+
+.embla__image {
+  width: 70%;
+  height: 70%;
+}
+
+/*
+  .embla {
+    overflow: hidden;
+  }
+  .embla__container {
+    display: flex;
+  }
+  .embla__slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex: 0 0 12.5%;
+  }
+  */
 /*# sourceMappingURL=style.css.map */

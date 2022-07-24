@@ -1,12 +1,17 @@
+@import "./reset.scss";
+
+
+
 .App {
     
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    
 }
 
 @media (max-width: 768px) {
     .App {
-        //css grid one column
+        
         grid-template-columns: 1fr;
 
     }
@@ -15,7 +20,8 @@
 .leftContainer {
     background-color: #7ea8be;
     height: 100vh;
-    width: 50vh;
+    position: sticky;
+    
 }
 
 @media (max-width: 768px) {
@@ -24,11 +30,10 @@
     }
 } 
 
+
 //main page
 
 .mainContainer {
-    
-    
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -62,6 +67,7 @@
 
 .rightContainer {
     background-color: #c7f9cc;
+    
 }
 
 
@@ -70,9 +76,17 @@
 
 .portrait {
     object-fit: cover;
-    height: 100vh;
+    height: 100%;
+    width: 100%;
     
 }
+
+@media (max-width: 768px) {
+    .portrait {
+        height: 100vh;
+        
+    }
+} 
 
 //about page
 
@@ -86,9 +100,9 @@
 }
 
 //About Carousel
-/*
+
 .techStack {
-    
+    width: 95%
     
     
 }
@@ -121,8 +135,8 @@
     height: 70%;
   }
 
-  */
-
+  
+/*
   .embla {
     overflow: hidden;
   }
@@ -137,3 +151,4 @@
     position: relative;
     flex: 0 0 12.5%;
   }
+  */
