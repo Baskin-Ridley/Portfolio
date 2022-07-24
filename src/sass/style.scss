@@ -26,7 +26,8 @@
 
 @media (max-width: 768px) {
     .leftContainer {
-        height: 100vh
+        height: 100vh;
+        position: static;
     }
 } 
 
