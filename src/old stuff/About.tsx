@@ -1,6 +1,6 @@
-import React from 'react'
+/*import React from 'react'
 import portrait from "../assets/pexels-vincent-tan-6934325.jpg"
-import EmblaCarousel from './Carousel';
+import EmblaCarousel from '../components/Carousel';
 
 
 
@@ -21,6 +21,10 @@ const About = () => {
         <div className="techStack"><EmblaCarousel/></div>
     </div>
   )
+}
+*/
+function About() {
+  console.log("delete this")
 }
 
 export default About
