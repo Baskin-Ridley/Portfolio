@@ -57,6 +57,917 @@ const EmblaCarousel = () => {
     <div className="embla">
       <div className="embla__viewport" ref={emblaRef}>
         <div className="embla__container">
+        {/* Repeats */}
+        <div className="embla__slide">
+            <img className="embla__image" src={html} alt="html"></img>
+            <div className="embla__slide__text">
+              <h3>HTML</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={css} alt="CSS"></img>
+            <div className="embla__slide__text">
+              <h3>CSS</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={js} alt="JavaScript"></img>
+            <div className="embla__slide__text">
+              <h3>JavaScript</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={typescript} alt="TypeScript"></img>
+            <div className="embla__slide__text">
+              <h3>TypeScript</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={python} alt="Python"></img>
+            <div className="embla__slide__text">
+              <h3>Python</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={react} alt="React"></img>
+            <div className="embla__slide__text">
+              <h3>React</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={redux} alt="Redux"></img>
+            <div className="embla__slide__text">
+              <h3>Redux</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={webpack} alt="webpack"></img>
+            <div className="embla__slide__text">
+              <h3>Webpack</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={sass} alt="SASS"></img>
+            <div className="embla__slide__text">
+              <h3>SASS</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={git} alt="Git"></img>
+            <div className="embla__slide__text">
+              <h3>Git</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={node} alt="NodeJS"></img>
+            <div className="embla__slide__text">
+              <h3>NodeJS</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={npm} alt="NPM"></img>
+            <div className="embla__slide__text">
+              <h3>NPM</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={jest} alt="Jest"></img>
+            <div className="embla__slide__text">
+              <h3>Jest</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={mongo} alt="MongoDB"></img>
+            <div className="embla__slide__text">
+              <h3>MongoDB</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={eslint} alt="esLint"></img>
+            <div className="embla__slide__text">
+              <h3>esLint</h3>
+            </div>
+          </div>
+          {/* Repeats */}
+        <div className="embla__slide">
+            <img className="embla__image" src={html} alt="html"></img>
+            <div className="embla__slide__text">
+              <h3>HTML</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={css} alt="CSS"></img>
+            <div className="embla__slide__text">
+              <h3>CSS</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={js} alt="JavaScript"></img>
+            <div className="embla__slide__text">
+              <h3>JavaScript</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={typescript} alt="TypeScript"></img>
+            <div className="embla__slide__text">
+              <h3>TypeScript</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={python} alt="Python"></img>
+            <div className="embla__slide__text">
+              <h3>Python</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={react} alt="React"></img>
+            <div className="embla__slide__text">
+              <h3>React</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={redux} alt="Redux"></img>
+            <div className="embla__slide__text">
+              <h3>Redux</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={webpack} alt="webpack"></img>
+            <div className="embla__slide__text">
+              <h3>Webpack</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={sass} alt="SASS"></img>
+            <div className="embla__slide__text">
+              <h3>SASS</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={git} alt="Git"></img>
+            <div className="embla__slide__text">
+              <h3>Git</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={node} alt="NodeJS"></img>
+            <div className="embla__slide__text">
+              <h3>NodeJS</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={npm} alt="NPM"></img>
+            <div className="embla__slide__text">
+              <h3>NPM</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={jest} alt="Jest"></img>
+            <div className="embla__slide__text">
+              <h3>Jest</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={mongo} alt="MongoDB"></img>
+            <div className="embla__slide__text">
+              <h3>MongoDB</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={eslint} alt="esLint"></img>
+            <div className="embla__slide__text">
+              <h3>esLint</h3>
+            </div>
+          </div>
+          {/* Repeats */}
+        <div className="embla__slide">
+            <img className="embla__image" src={html} alt="html"></img>
+            <div className="embla__slide__text">
+              <h3>HTML</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={css} alt="CSS"></img>
+            <div className="embla__slide__text">
+              <h3>CSS</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={js} alt="JavaScript"></img>
+            <div className="embla__slide__text">
+              <h3>JavaScript</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={typescript} alt="TypeScript"></img>
+            <div className="embla__slide__text">
+              <h3>TypeScript</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={python} alt="Python"></img>
+            <div className="embla__slide__text">
+              <h3>Python</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={react} alt="React"></img>
+            <div className="embla__slide__text">
+              <h3>React</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={redux} alt="Redux"></img>
+            <div className="embla__slide__text">
+              <h3>Redux</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={webpack} alt="webpack"></img>
+            <div className="embla__slide__text">
+              <h3>Webpack</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={sass} alt="SASS"></img>
+            <div className="embla__slide__text">
+              <h3>SASS</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={git} alt="Git"></img>
+            <div className="embla__slide__text">
+              <h3>Git</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={node} alt="NodeJS"></img>
+            <div className="embla__slide__text">
+              <h3>NodeJS</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={npm} alt="NPM"></img>
+            <div className="embla__slide__text">
+              <h3>NPM</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={jest} alt="Jest"></img>
+            <div className="embla__slide__text">
+              <h3>Jest</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={mongo} alt="MongoDB"></img>
+            <div className="embla__slide__text">
+              <h3>MongoDB</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={eslint} alt="esLint"></img>
+            <div className="embla__slide__text">
+              <h3>esLint</h3>
+            </div>
+          </div>
+          {/* Repeats */}
+        <div className="embla__slide">
+            <img className="embla__image" src={html} alt="html"></img>
+            <div className="embla__slide__text">
+              <h3>HTML</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={css} alt="CSS"></img>
+            <div className="embla__slide__text">
+              <h3>CSS</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={js} alt="JavaScript"></img>
+            <div className="embla__slide__text">
+              <h3>JavaScript</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={typescript} alt="TypeScript"></img>
+            <div className="embla__slide__text">
+              <h3>TypeScript</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={python} alt="Python"></img>
+            <div className="embla__slide__text">
+              <h3>Python</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={react} alt="React"></img>
+            <div className="embla__slide__text">
+              <h3>React</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={redux} alt="Redux"></img>
+            <div className="embla__slide__text">
+              <h3>Redux</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={webpack} alt="webpack"></img>
+            <div className="embla__slide__text">
+              <h3>Webpack</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={sass} alt="SASS"></img>
+            <div className="embla__slide__text">
+              <h3>SASS</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={git} alt="Git"></img>
+            <div className="embla__slide__text">
+              <h3>Git</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={node} alt="NodeJS"></img>
+            <div className="embla__slide__text">
+              <h3>NodeJS</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={npm} alt="NPM"></img>
+            <div className="embla__slide__text">
+              <h3>NPM</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={jest} alt="Jest"></img>
+            <div className="embla__slide__text">
+              <h3>Jest</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={mongo} alt="MongoDB"></img>
+            <div className="embla__slide__text">
+              <h3>MongoDB</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={eslint} alt="esLint"></img>
+            <div className="embla__slide__text">
+              <h3>esLint</h3>
+            </div>
+          </div>
+          {/* Repeats */}
+        <div className="embla__slide">
+            <img className="embla__image" src={html} alt="html"></img>
+            <div className="embla__slide__text">
+              <h3>HTML</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={css} alt="CSS"></img>
+            <div className="embla__slide__text">
+              <h3>CSS</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={js} alt="JavaScript"></img>
+            <div className="embla__slide__text">
+              <h3>JavaScript</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={typescript} alt="TypeScript"></img>
+            <div className="embla__slide__text">
+              <h3>TypeScript</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={python} alt="Python"></img>
+            <div className="embla__slide__text">
+              <h3>Python</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={react} alt="React"></img>
+            <div className="embla__slide__text">
+              <h3>React</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={redux} alt="Redux"></img>
+            <div className="embla__slide__text">
+              <h3>Redux</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={webpack} alt="webpack"></img>
+            <div className="embla__slide__text">
+              <h3>Webpack</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={sass} alt="SASS"></img>
+            <div className="embla__slide__text">
+              <h3>SASS</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={git} alt="Git"></img>
+            <div className="embla__slide__text">
+              <h3>Git</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={node} alt="NodeJS"></img>
+            <div className="embla__slide__text">
+              <h3>NodeJS</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={npm} alt="NPM"></img>
+            <div className="embla__slide__text">
+              <h3>NPM</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={jest} alt="Jest"></img>
+            <div className="embla__slide__text">
+              <h3>Jest</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={mongo} alt="MongoDB"></img>
+            <div className="embla__slide__text">
+              <h3>MongoDB</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={eslint} alt="esLint"></img>
+            <div className="embla__slide__text">
+              <h3>esLint</h3>
+            </div>
+          </div>
+          {/* Repeats */}
+        <div className="embla__slide">
+            <img className="embla__image" src={html} alt="html"></img>
+            <div className="embla__slide__text">
+              <h3>HTML</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={css} alt="CSS"></img>
+            <div className="embla__slide__text">
+              <h3>CSS</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={js} alt="JavaScript"></img>
+            <div className="embla__slide__text">
+              <h3>JavaScript</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={typescript} alt="TypeScript"></img>
+            <div className="embla__slide__text">
+              <h3>TypeScript</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={python} alt="Python"></img>
+            <div className="embla__slide__text">
+              <h3>Python</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={react} alt="React"></img>
+            <div className="embla__slide__text">
+              <h3>React</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={redux} alt="Redux"></img>
+            <div className="embla__slide__text">
+              <h3>Redux</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={webpack} alt="webpack"></img>
+            <div className="embla__slide__text">
+              <h3>Webpack</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={sass} alt="SASS"></img>
+            <div className="embla__slide__text">
+              <h3>SASS</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={git} alt="Git"></img>
+            <div className="embla__slide__text">
+              <h3>Git</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={node} alt="NodeJS"></img>
+            <div className="embla__slide__text">
+              <h3>NodeJS</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={npm} alt="NPM"></img>
+            <div className="embla__slide__text">
+              <h3>NPM</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={jest} alt="Jest"></img>
+            <div className="embla__slide__text">
+              <h3>Jest</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={mongo} alt="MongoDB"></img>
+            <div className="embla__slide__text">
+              <h3>MongoDB</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={eslint} alt="esLint"></img>
+            <div className="embla__slide__text">
+              <h3>esLint</h3>
+            </div>
+          </div>
+          {/* Repeats */}
+        <div className="embla__slide">
+            <img className="embla__image" src={html} alt="html"></img>
+            <div className="embla__slide__text">
+              <h3>HTML</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={css} alt="CSS"></img>
+            <div className="embla__slide__text">
+              <h3>CSS</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={js} alt="JavaScript"></img>
+            <div className="embla__slide__text">
+              <h3>JavaScript</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={typescript} alt="TypeScript"></img>
+            <div className="embla__slide__text">
+              <h3>TypeScript</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={python} alt="Python"></img>
+            <div className="embla__slide__text">
+              <h3>Python</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={react} alt="React"></img>
+            <div className="embla__slide__text">
+              <h3>React</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={redux} alt="Redux"></img>
+            <div className="embla__slide__text">
+              <h3>Redux</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={webpack} alt="webpack"></img>
+            <div className="embla__slide__text">
+              <h3>Webpack</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={sass} alt="SASS"></img>
+            <div className="embla__slide__text">
+              <h3>SASS</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={git} alt="Git"></img>
+            <div className="embla__slide__text">
+              <h3>Git</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={node} alt="NodeJS"></img>
+            <div className="embla__slide__text">
+              <h3>NodeJS</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={npm} alt="NPM"></img>
+            <div className="embla__slide__text">
+              <h3>NPM</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={jest} alt="Jest"></img>
+            <div className="embla__slide__text">
+              <h3>Jest</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={mongo} alt="MongoDB"></img>
+            <div className="embla__slide__text">
+              <h3>MongoDB</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={eslint} alt="esLint"></img>
+            <div className="embla__slide__text">
+              <h3>esLint</h3>
+            </div>
+          </div>
+          {/* Repeats */}
+        <div className="embla__slide">
+            <img className="embla__image" src={html} alt="html"></img>
+            <div className="embla__slide__text">
+              <h3>HTML</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={css} alt="CSS"></img>
+            <div className="embla__slide__text">
+              <h3>CSS</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={js} alt="JavaScript"></img>
+            <div className="embla__slide__text">
+              <h3>JavaScript</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={typescript} alt="TypeScript"></img>
+            <div className="embla__slide__text">
+              <h3>TypeScript</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={python} alt="Python"></img>
+            <div className="embla__slide__text">
+              <h3>Python</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={react} alt="React"></img>
+            <div className="embla__slide__text">
+              <h3>React</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={redux} alt="Redux"></img>
+            <div className="embla__slide__text">
+              <h3>Redux</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={webpack} alt="webpack"></img>
+            <div className="embla__slide__text">
+              <h3>Webpack</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={sass} alt="SASS"></img>
+            <div className="embla__slide__text">
+              <h3>SASS</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={git} alt="Git"></img>
+            <div className="embla__slide__text">
+              <h3>Git</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={node} alt="NodeJS"></img>
+            <div className="embla__slide__text">
+              <h3>NodeJS</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={npm} alt="NPM"></img>
+            <div className="embla__slide__text">
+              <h3>NPM</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={jest} alt="Jest"></img>
+            <div className="embla__slide__text">
+              <h3>Jest</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={mongo} alt="MongoDB"></img>
+            <div className="embla__slide__text">
+              <h3>MongoDB</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={eslint} alt="esLint"></img>
+            <div className="embla__slide__text">
+              <h3>esLint</h3>
+            </div>
+          </div>
+          {/* Repeats */}
+        <div className="embla__slide">
+            <img className="embla__image" src={html} alt="html"></img>
+            <div className="embla__slide__text">
+              <h3>HTML</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={css} alt="CSS"></img>
+            <div className="embla__slide__text">
+              <h3>CSS</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={js} alt="JavaScript"></img>
+            <div className="embla__slide__text">
+              <h3>JavaScript</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={typescript} alt="TypeScript"></img>
+            <div className="embla__slide__text">
+              <h3>TypeScript</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={python} alt="Python"></img>
+            <div className="embla__slide__text">
+              <h3>Python</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={react} alt="React"></img>
+            <div className="embla__slide__text">
+              <h3>React</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={redux} alt="Redux"></img>
+            <div className="embla__slide__text">
+              <h3>Redux</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={webpack} alt="webpack"></img>
+            <div className="embla__slide__text">
+              <h3>Webpack</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={sass} alt="SASS"></img>
+            <div className="embla__slide__text">
+              <h3>SASS</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={git} alt="Git"></img>
+            <div className="embla__slide__text">
+              <h3>Git</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={node} alt="NodeJS"></img>
+            <div className="embla__slide__text">
+              <h3>NodeJS</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={npm} alt="NPM"></img>
+            <div className="embla__slide__text">
+              <h3>NPM</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={jest} alt="Jest"></img>
+            <div className="embla__slide__text">
+              <h3>Jest</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={mongo} alt="MongoDB"></img>
+            <div className="embla__slide__text">
+              <h3>MongoDB</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={eslint} alt="esLint"></img>
+            <div className="embla__slide__text">
+              <h3>esLint</h3>
+            </div>
+          </div>
+          {/* Repeats */}
+        <div className="embla__slide">
+            <img className="embla__image" src={html} alt="html"></img>
+            <div className="embla__slide__text">
+              <h3>HTML</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={css} alt="CSS"></img>
+            <div className="embla__slide__text">
+              <h3>CSS</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={js} alt="JavaScript"></img>
+            <div className="embla__slide__text">
+              <h3>JavaScript</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={typescript} alt="TypeScript"></img>
+            <div className="embla__slide__text">
+              <h3>TypeScript</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={python} alt="Python"></img>
+            <div className="embla__slide__text">
+              <h3>Python</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={react} alt="React"></img>
+            <div className="embla__slide__text">
+              <h3>React</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={redux} alt="Redux"></img>
+            <div className="embla__slide__text">
+              <h3>Redux</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={webpack} alt="webpack"></img>
+            <div className="embla__slide__text">
+              <h3>Webpack</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={sass} alt="SASS"></img>
+            <div className="embla__slide__text">
+              <h3>SASS</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={git} alt="Git"></img>
+            <div className="embla__slide__text">
+              <h3>Git</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={node} alt="NodeJS"></img>
+            <div className="embla__slide__text">
+              <h3>NodeJS</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={npm} alt="NPM"></img>
+            <div className="embla__slide__text">
+              <h3>NPM</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={jest} alt="Jest"></img>
+            <div className="embla__slide__text">
+              <h3>Jest</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={mongo} alt="MongoDB"></img>
+            <div className="embla__slide__text">
+              <h3>MongoDB</h3>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img className="embla__image" src={eslint} alt="esLint"></img>
+            <div className="embla__slide__text">
+              <h3>esLint</h3>
+            </div>
+          </div>
+          {/* Repeats */}
         <div className="embla__slide">
             <img className="embla__image" src={html} alt="html"></img>
             <div className="embla__slide__text">
