@@ -3,6 +3,7 @@ import './sass/style.css';
 import Main from './components/main';
 import Landing from './components/landing';
 import About from './components/about';
+import Projects from './components/projects';
 function App() {
   return (
     <div className="App">
@@ -14,6 +15,7 @@ function App() {
         <div className="aboutBackground">
           <About/>
         </div>
+        <Projects/>
       </div>
     </div>
   );
