@@ -53,6 +53,11 @@ input {
   background-color: #7ea8be;
 }
 
+body {
+  overflow-x: hidden;
+  /* Hide horizontal scrollbar */
+}
+
 .portfolioContainer {
   display: -ms-grid;
   display: grid;
