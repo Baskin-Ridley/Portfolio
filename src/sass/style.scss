@@ -1,20 +1,42 @@
 @import "./reset.scss";
 
-
+:root {
+  background-color: #7ea8be;
+}
 
 .App {
     
-    display: grid;
-    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-    
+}
+
+.transition {
+  //currently unneeded consider removing
+}
+
+.portfolioContainer {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+}
+
+@media (min-width: 769px) {
+  .portfolioContainer {
+    animation: transition 1.5s ease-in-out;
+  }
 }
 
 @media (max-width: 768px) {
-    .App {
-        
+    .portfolioContainer {
         grid-template-columns: 1fr;
-
     }
+}
+
+// keyframe sliding panel
+@keyframes transition {
+  0% {
+      transform: translateX(100%);
+  }
+  100% {
+      transform: translateX(0);
+  }
 }
 
 .leftContainer {
