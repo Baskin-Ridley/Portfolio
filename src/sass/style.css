@@ -56,6 +56,7 @@ input {
 body {
   overflow-x: hidden;
   /* Hide horizontal scrollbar */
+  width: 100%;
 }
 
 .portfolioContainer {
@@ -190,10 +191,13 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-left: 10%;
-  margin-right: 5%;
   background-color: #c7f9cc;
-  width: 50vh;
+}
+
+@media (max-width: 768px) {
+  .aboutContainer {
+    width: 50vh;
+  }
 }
 
 .aboutTitle {
@@ -203,12 +207,13 @@ body {
   font-size: 1.5em;
   margin-top: 0.83em;
   margin-bottom: 0.83em;
-  margin-left: 0;
-  margin-right: 0;
+  margin-left: 10%;
+  margin-right: 5%;
 }
 
 .aboutText {
-  width: 90%;
+  margin-left: 10%;
+  margin-right: 5%;
 }
 
 .techTitle {
@@ -217,9 +222,14 @@ body {
   font-size: 1.17em;
   margin-top: 1em;
   margin-bottom: 1em;
-  margin-left: 0;
-  margin-right: 0;
+  margin-left: 10%;
+  margin-right: 5%;
   font-weight: bold;
+}
+
+.techSkills {
+  margin-left: 10%;
+  margin-right: 5%;
 }
 
 .techStack {
@@ -264,7 +274,7 @@ body {
 }
 
 .embla__image {
-  width: 50%;
+  width: 70%;
   height: 70%;
 }
 
