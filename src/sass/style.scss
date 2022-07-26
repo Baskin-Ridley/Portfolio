@@ -194,12 +194,14 @@
     margin-bottom: 0.83em;
     margin-left: 0;
     margin-right: 0;
+
+
   }
 
   .project {
     display: grid;
     grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-    
+    grid-gap: 20px;
   }
 
   .projectTitle {
@@ -214,11 +216,33 @@
   }
 
   .projectText {
-    width: 90%
+    width: 90%;
+    margin-bottom: 1em;
+  }
+
+  .projectLinks {
+    background-color: #fec9f1;
+    border: solid 2px #7ea8be;
+    color:  #7ea8be;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    font-weight: bold;
+  }
+
+  .projectLinks:hover {
+    //fix button hover might need to rewite html
+    background-color: #fec9f1;
+    color:  #7ea8be;
   }
 
   .projectImage {
     width: 90%;
     height: 90%;
     margin-top: 0.83em;
+    object-fit: contain;
   }
