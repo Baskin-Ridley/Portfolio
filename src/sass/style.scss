@@ -174,11 +174,51 @@
 
   // project page
 
-  .projects {
-    background-color: #fafafa;
+  .projectBackground {
+    background-color: #fec9f1;
+  }
+
+  .projectsContainer {
+    background-color: #fec9f1;
+    margin-left: 10%;
+    margin-right: 5%;
+    
+  }
+
+  .projectsTitle {
+    color: #7ea8be; 
+    display: block;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .project {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    
+  }
+
+  .projectTitle {
+    color: #7ea8be; 
+    display: block;
+    font-size: 1.17em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+  }
+
+  .projectText {
+    width: 90%
   }
 
   .projectImage {
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 90%;
+    margin-top: 0.83em;
   }
