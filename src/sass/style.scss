@@ -5,7 +5,7 @@
 }
 
 body {
-  overflow-x: hidden; /* Hide horizontal scrollbar */
+   overflow-x: hidden; /* Hide horizontal scrollbar */
 }
 
 .App {
@@ -129,7 +129,7 @@ body {
     margin-left: 10%;
     margin-right: 5%;
     background-color:#c7f9cc;
-    height: 50vh;
+    
     width: 50vh;
 }
 
@@ -160,7 +160,7 @@ body {
 }
 
 .techSkills {
-
+  
 }
 //About Carousel
 
@@ -194,7 +194,7 @@ body {
   }
 
   .embla__image {
-    width: 70%;
+    width: 50%;
     height: 70%;
   }
 
