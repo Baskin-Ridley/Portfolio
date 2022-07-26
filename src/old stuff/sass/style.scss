@@ -81,7 +81,7 @@
 
 //main page
 
-.mainContainer {
+.aboutContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -89,7 +89,7 @@
     margin-top: 20px;
 }
 
-.mainContent {
+.aboutContent {
     //consider coming back to fix the gap
     display: flex;
     flex-direction: row;
@@ -115,6 +115,8 @@
 
 
 //About Carousel
+
+/*
 .techStack {
     
     width: 100%;
@@ -140,7 +142,7 @@
   }
 
   .embla__slide {
-    flex: 0 0 12.5%; /* Slide covers 50% of the viewport */
+    flex: 0 0 12.5%; 
     
   }
 
@@ -148,6 +150,8 @@
     width: 70%;
     height: 70%;
   }
+
+  */
 //projects
 
 .projectContainer {
