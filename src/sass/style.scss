@@ -149,7 +149,7 @@ body {
 .landing {
   position: sticky;
   top: 0;
-  z-index: -5;
+  z-index: 2;
 }
 
 .portrait {
@@ -183,7 +183,7 @@ body {
     background-color:#c7f9cc;
     position: sticky;
     top: 0;
-    z-index: -4;
+    z-index: 3;
     min-height: 100vh;
 }
 
@@ -269,7 +269,7 @@ body {
     background-color: #fec9f1;
     position: sticky;
     top: 0;
-    z-index: -2;
+    z-index: 4;
   }
 
   .projectsContainer {
@@ -353,7 +353,7 @@ body {
     margin-top: 20px;
     position: sticky;
     top: 0;
-    z-index: -1;
+    z-index: 5;
     min-height: 100vh; //remove later
   }
 
