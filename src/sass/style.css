@@ -135,6 +135,46 @@ body {
   margin-right: 45%;
   height: 100vh;
   color: #c7f9cc;
+  -webkit-animation: textAppear 5s ease-in-out;
+          animation: textAppear 5s ease-in-out;
+  -webkit-animation-delay: 100s;
+          animation-delay: 100s;
+}
+
+@-webkit-keyframes textAppear {
+  from {
+    opacity: 0;
+    -webkit-transform: perspective(500px) translate3d(-35px, -40px, -150px) rotate3d(1, -1, 0, 35deg);
+            transform: perspective(500px) translate3d(-35px, -40px, -150px) rotate3d(1, -1, 0, 35deg);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: perspective(500px) translate3d(0, 0, 0);
+            transform: perspective(500px) translate3d(0, 0, 0);
+  }
+}
+
+@keyframes textAppear {
+  from {
+    opacity: 0;
+    -webkit-transform: perspective(500px) translate3d(-35px, -40px, -150px) rotate3d(1, -1, 0, 35deg);
+            transform: perspective(500px) translate3d(-35px, -40px, -150px) rotate3d(1, -1, 0, 35deg);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: perspective(500px) translate3d(0, 0, 0);
+            transform: perspective(500px) translate3d(0, 0, 0);
+  }
+}
+
+.mainTitle {
+  -webkit-animation: textAppear 2.5s ease-out 1;
+          animation: textAppear 2.5s ease-out 1;
+}
+
+.mainParagraph {
+  -webkit-animation: textAppear 2.5s ease-out 1;
+          animation: textAppear 2.5s ease-out 1;
 }
 
 .scrollButton {
@@ -149,6 +189,8 @@ body {
   cursor: pointer;
   border-radius: 16px;
   font-weight: bold;
+  -webkit-animation: textAppear 2.5s ease-out 1;
+          animation: textAppear 2.5s ease-out 1;
 }
 
 .scrollButton:hover {
