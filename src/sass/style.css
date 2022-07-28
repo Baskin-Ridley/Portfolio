@@ -49,14 +49,11 @@ input {
   border-radius: 0;
 }
 
-:root {
-  background-color: #7ea8be;
-}
-
 body {
   overflow-x: hidden;
   /* Hide horizontal scrollbar */
   width: 100%;
+  background-color: #7ea8be;
 }
 
 .portfolioContainer {
