@@ -329,7 +329,7 @@ body {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  z-index: -3;
+  z-index: -2;
 }
 
 .projectsContainer {
@@ -419,7 +419,7 @@ body {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  z-index: -2;
+  z-index: -1;
   min-height: 100vh;
 }
 

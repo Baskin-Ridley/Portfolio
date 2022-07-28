@@ -3,10 +3,10 @@ import React from 'react'
 const Main = () => {
   return (
     <div className="mainContainer">
-        <h1 className="mainTitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
-        <p className="mainParagraph"> Sed eu eros sit amet turpis semper laoreet. Pellentesque volutpat lectus non sem blandit vestibulum.</p>
+        <h1 className="mainTitle">Hi, I'm Gabriel, </h1>
+        <p className="mainParagraph"> I'm a self taught-full stack developer. </p>
         <button className="scrollButton">
-          Get to know me
+          Get to know me!
         </button>
     </div>
    

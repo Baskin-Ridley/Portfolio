@@ -5,7 +5,12 @@ import Landing from './components/landing';
 import About from './components/about';
 import Projects from './components/projects';
 import Contact from './components/Contact';
+
 function App() {
+  window.onbeforeunload = () => {
+    window.scrollTo(0, 0);
+  };
+
   return (
     <div className="App">
       
@@ -16,7 +21,7 @@ function App() {
           <div className="rightContainer">
             <Landing/>
             
-              <About/>
+            <About/>
             
             <Projects/>
             <Contact/>
