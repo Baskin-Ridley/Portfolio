@@ -72,12 +72,13 @@ body {
     justify-content: center;
     
     margin-left: 10%;
-    margin-right: 45%;
+    margin-right: 30%;
     height:100vh; // look into changing for mobile
     color:  #c7f9cc;
     animation: textAppear 5s ease-in-out;
     animation-delay: 100s;
 }
+
 
 
 @keyframes textAppear{
@@ -93,23 +94,40 @@ body {
 
 .mainTitle {
   animation: textAppear 2.5s ease-out 1;
+
+  display: block;
+  font-size: 4em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
 }
 
 .mainParagraph {
   animation: textAppear 2.5s ease-out 1;
+
+  display: block;
+  font-weight: bold;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+
 }
 .scrollButton {
-    //create a button with rounded corners
+    font-size: 1.5em;
     background-color: #7ea8be;
     border: solid 2px #c7f9cc;
     color:  #c7f9cc;
-    padding: 10px 20px;
+    padding: 15px 40px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    margin: 4px 2px;
+    margin-top: 1em;
+    
     cursor: pointer;
-    border-radius: 16px;
+    border-radius: 160px;
     font-weight: bold;
     animation: textAppear 2.5s ease-out 1;
 }
