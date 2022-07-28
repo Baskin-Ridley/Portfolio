@@ -110,7 +110,10 @@ body {
 @media (max-width: 768px) {
   .leftContainer {
     height: 100vh;
-    position: static;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: -6;
   }
 }
 
@@ -195,8 +198,11 @@ body {
   color: #7ea8be;
 }
 
-.rightContainer {
-  background-color: #c7f9cc;
+.landing {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: -5;
 }
 
 .portrait {
@@ -210,10 +216,6 @@ body {
   .portrait {
     height: 100vh;
   }
-}
-
-.aboutBackground {
-  background-color: #c7f9cc;
 }
 
 .aboutContainer {
@@ -231,6 +233,11 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   background-color: #c7f9cc;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: -4;
+  min-height: 100vh;
 }
 
 @media (max-width: 768px) {
@@ -319,6 +326,10 @@ body {
 
 .projectBackground {
   background-color: #fec9f1;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: -3;
 }
 
 .projectsContainer {
@@ -390,6 +401,7 @@ body {
 }
 
 .contactContainer {
+  background-color: red;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -404,6 +416,11 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   margin-top: 20px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: -2;
+  min-height: 100vh;
 }
 
 .contactForm {

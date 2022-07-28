@@ -15,9 +15,9 @@ function App() {
           </div>
           <div className="rightContainer">
             <Landing/>
-            <div className="aboutBackground">
+            
               <About/>
-            </div>
+            
             <Projects/>
             <Contact/>
           </div>

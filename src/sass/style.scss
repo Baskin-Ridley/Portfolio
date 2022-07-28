@@ -56,7 +56,9 @@ body {
 @media (max-width: 768px) {
     .leftContainer {
         height: 100vh;
-        position: static;
+        position: sticky;
+        top: 0;
+        z-index: -6;
     }
 } 
 
@@ -118,13 +120,19 @@ body {
 }
 
 .rightContainer {
-    background-color: #c7f9cc;
+    
     
 }
 
 
 
 //landing photo
+
+.landing {
+  position: sticky;
+  top: 0;
+  z-index: -5;
+}
 
 .portrait {
     object-fit: cover;
@@ -140,20 +148,25 @@ body {
     }
 } 
 
+//about page
+
 .aboutBackground {
-  background-color:#c7f9cc;
+  
+  
 }
 
-//about page
+
 
 .aboutContainer {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    
     background-color:#c7f9cc;
-    
+    position: sticky;
+    top: 0;
+    z-index: -4;
+    min-height: 100vh;
 }
 
 @media (max-width: 768px) {
@@ -236,6 +249,9 @@ body {
 
   .projectBackground {
     background-color: #fec9f1;
+    position: sticky;
+    top: 0;
+    z-index: -3;
   }
 
   .projectsContainer {
@@ -311,11 +327,16 @@ body {
   //contact
 
   .contactContainer {
+    background-color: red;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin-top: 20px;
+    position: sticky;
+    top: 0;
+    z-index: -2;
+    min-height: 100vh; //remove later
   }
 
   .contactForm {
