@@ -4,10 +4,10 @@
   
 }
 
-.font-face-gm {
-  font-family: "Roboto";
- }
-
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/roboto/Roboto-Regular.ttf') format('truetype');
+}
 html {
   scroll-behavior: smooth;
 }
@@ -25,7 +25,7 @@ body {
 }
 
 .App {
-    
+  font-family: Roboto, serif;
 }
 
 .transition {

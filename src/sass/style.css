@@ -49,8 +49,9 @@ input {
   border-radius: 0;
 }
 
-.font-face-gm {
-  font-family: "Roboto";
+@font-face {
+  font-family: 'Roboto';
+  src: url("../fonts/roboto/Roboto-Regular.ttf") format("truetype");
 }
 
 html {
@@ -67,6 +68,10 @@ body {
   /* Hide horizontal scrollbar */
   width: 100%;
   background-color: #7ea8be;
+}
+
+.App {
+  font-family: Roboto, serif;
 }
 
 .portfolioContainer {
