@@ -28,6 +28,8 @@ body {
   font-family: Roboto, serif;
 }
 
+
+
 .transition {
   //currently unneeded consider removing
 }
@@ -163,7 +165,15 @@ body {
   position: sticky;
   top: 0;
   z-index: 2;
+  gap: 0px;
 }
+
+@media (max-width: 768px) {
+  .landing {
+      
+      position: relative;
+  }
+} 
 
 .portrait {
     object-fit: cover;
@@ -175,9 +185,10 @@ body {
 @media (max-width: 768px) {
     .portrait {
         height: 100vh;
-        
+       
     }
 } 
+
 
 //about page
 
@@ -203,6 +214,7 @@ body {
 @media (max-width: 768px) {
   .aboutContainer {
       width: 50vh;
+      position: relative;
   }
 }
 
@@ -308,13 +320,20 @@ body {
     position: sticky;
     top: 0;
     z-index: 4;
+    min-height: 100vh;
   }
 
+  @media (max-width: 768px) {
+    .projectBackground {
+        
+        position: relative;
+    }
+} 
   .projectsContainer {
     background-color: #fec9f1;
     margin-left: 10%;
     margin-right: 5%;
-    height: 100vh;
+    
   }
 
   .projectsTitle {
@@ -394,6 +413,12 @@ body {
     z-index: 5;
     min-height: 100vh; //remove later
   }
+
+  @media (max-width: 768px) {
+    .contactContainer {
+        position: relative;
+    }
+} 
 
   .contactForm {
     display: flex;
