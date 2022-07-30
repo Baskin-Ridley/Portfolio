@@ -4,8 +4,17 @@
   
 }
 
+.font-face-gm {
+  font-family: "Roboto";
+ }
+
 html {
   scroll-behavior: smooth;
+}
+
+br {
+  display: block;
+  margin: 10px 0;
 }
 
 body {
@@ -183,7 +192,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: center;
+    
     background-color:#c7f9cc;
     position: sticky;
     top: 0;
@@ -210,31 +219,49 @@ body {
 }
 
 .aboutText {
-  
   margin-left: 10%;
   margin-right: 5%;
+  line-height: 1.5em;
+}
+
+.whyMeTitle {
+  color:#7ea8be;
+  display: block;
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-top: 0.83em;
+  margin-bottom: 0.83em;
+  margin-left: 10%;
+  margin-right: 5%;
+}
+
+.whyMeText {
+  margin-left: 10%;
+  margin-right: 5%;
+  line-height: 1.5em;
 }
 
 .techTitle {
   color:#7ea8be;
   display: block;
-  font-size: 1.17em;
-  margin-top: 1em;
-  margin-bottom: 1em;
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-top: 0.83em;
+  margin-bottom: 0.83em;
   margin-left: 10%;
   margin-right: 5%;
-  font-weight: bold;
   
 }
 
 .techSkills {
   margin-left: 10%;
   margin-right: 5%;
+  line-height: 1.5em;
 }
 //About Carousel
 
 .techStack {
-    width: 95%;
+    width: 100%;
     
     
 }
@@ -267,6 +294,13 @@ body {
     height: 70%;
   }
 
+  .embla__prev {
+    display: none
+  }
+
+  .embla__next {
+    display: none
+  }
   // project page
 
   .projectBackground {

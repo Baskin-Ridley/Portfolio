@@ -49,8 +49,17 @@ input {
   border-radius: 0;
 }
 
+.font-face-gm {
+  font-family: "Roboto";
+}
+
 html {
   scroll-behavior: smooth;
+}
+
+br {
+  display: block;
+  margin: 10px 0;
 }
 
 body {
@@ -247,9 +256,6 @@ body {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   background-color: #c7f9cc;
   position: -webkit-sticky;
   position: sticky;
@@ -278,26 +284,45 @@ body {
 .aboutText {
   margin-left: 10%;
   margin-right: 5%;
+  line-height: 1.5em;
+}
+
+.whyMeTitle {
+  color: #7ea8be;
+  display: block;
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-top: 0.83em;
+  margin-bottom: 0.83em;
+  margin-left: 10%;
+  margin-right: 5%;
+}
+
+.whyMeText {
+  margin-left: 10%;
+  margin-right: 5%;
+  line-height: 1.5em;
 }
 
 .techTitle {
   color: #7ea8be;
   display: block;
-  font-size: 1.17em;
-  margin-top: 1em;
-  margin-bottom: 1em;
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-top: 0.83em;
+  margin-bottom: 0.83em;
   margin-left: 10%;
   margin-right: 5%;
-  font-weight: bold;
 }
 
 .techSkills {
   margin-left: 10%;
   margin-right: 5%;
+  line-height: 1.5em;
 }
 
 .techStack {
-  width: 95%;
+  width: 100%;
 }
 
 .embla {
@@ -340,6 +365,14 @@ body {
 .embla__image {
   width: 70%;
   height: 70%;
+}
+
+.embla__prev {
+  display: none;
+}
+
+.embla__next {
+  display: none;
 }
 
 .projectBackground {
