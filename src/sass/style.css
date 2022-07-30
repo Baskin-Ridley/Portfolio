@@ -49,6 +49,10 @@ input {
   border-radius: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   overflow-x: hidden;
   /* Hide horizontal scrollbar */

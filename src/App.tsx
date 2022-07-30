@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useRef} from 'react';
 import './sass/style.css';
 import Main from './components/main';
 import Landing from './components/landing';
@@ -7,6 +7,9 @@ import Projects from './components/projects';
 import Contact from './components/Contact';
 
 function App() {
+
+  const ref = useRef(null);
+
   window.onbeforeunload = () => {
     window.scrollTo(0, 0);
   };
@@ -16,12 +19,12 @@ function App() {
       
       <div className="portfolioContainer">
           <div className="leftContainer">
-            <Main />
+            <Main refToLastComp={ref}/>
           </div>
           <div className="rightContainer">
             <Landing/>
             
-            <About/>
+            <About ref={ref}/>
             
             <Projects/>
             <Contact/>
