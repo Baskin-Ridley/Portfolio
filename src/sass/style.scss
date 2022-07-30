@@ -48,6 +48,7 @@ body {
 @media (max-width: 768px) {
     .portfolioContainer {
         grid-template-columns: 1fr;
+        column-gap: 0px;
     }
 }
 
@@ -71,7 +72,7 @@ body {
 @media (max-width: 768px) {
     .leftContainer {
         height: 100vh;
-        position: sticky;
+        position: relative;
         top: 0;
         z-index: -6;
     }
@@ -153,8 +154,10 @@ body {
 }
 
 .rightContainer {
-    
-    
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    background-color: #fec9f1;
 }
 
 
@@ -166,6 +169,7 @@ body {
   top: 0;
   z-index: 2;
   gap: 0px;
+  background-color: #c7f9cc;
 }
 
 @media (max-width: 768px) {
