@@ -19,7 +19,7 @@ br {
 
 body {
    overflow-x: hidden; /* Hide horizontal scrollbar */
-   
+   overscroll-behavior-y: none;
    width: 100%;
    background-color: #7ea8be;
 }
@@ -373,7 +373,7 @@ body {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    margin: 4px 2px;
+    margin: 4px 2px;color:#7ea8be;
     cursor: pointer;
     border-radius: 16px;
     font-weight: bold;
