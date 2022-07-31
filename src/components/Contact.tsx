@@ -7,7 +7,7 @@ function ContactForm() {
   }
   return (
     <div className="contactContainer">
-      <h1 className="contactHeader">Contact Me</h1>
+      <h2 className="contactHeader">Contact Me</h2>
       <p className="contactText">I am currently looking for a role as a developer. If you have a question, an other, or just want to chat, shoot me a message!</p>
       <form onSubmit={handleSubmit}>
         <label htmlFor="email">

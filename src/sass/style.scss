@@ -222,7 +222,7 @@ body {
   }
 }
 
-.aboutTitle {
+.aboutContainer > h2 {
   color:#7ea8be;
   display: block;
   font-weight: bold;
@@ -231,48 +231,37 @@ body {
   margin-bottom: 0.83em;
   margin-left: 10%;
   margin-right: 5%;
+}
+
+.aboutContainer > p {
+  margin-left: 10%;
+  margin-right: 5%;
+  line-height: 1.5em;
+}
+
+.aboutTitle {
   
 }
 
 .aboutText {
-  margin-left: 10%;
-  margin-right: 5%;
-  line-height: 1.5em;
+  
 }
 
 .whyMeTitle {
-  color:#7ea8be;
-  display: block;
-  font-weight: bold;
-  font-size: 1.5em;
-  margin-top: 0.83em;
-  margin-bottom: 0.83em;
-  margin-left: 10%;
-  margin-right: 5%;
+  
 }
 
 .whyMeText {
-  margin-left: 10%;
-  margin-right: 5%;
-  line-height: 1.5em;
+  
 }
 
 .techTitle {
-  color:#7ea8be;
-  display: block;
-  font-weight: bold;
-  font-size: 1.5em;
-  margin-top: 0.83em;
-  margin-bottom: 0.83em;
-  margin-left: 10%;
-  margin-right: 5%;
+  
   
 }
 
 .techSkills {
-  margin-left: 10%;
-  margin-right: 5%;
-  line-height: 1.5em;
+  
 }
 //About Carousel
 
@@ -418,8 +407,15 @@ body {
     justify-content: center;
   }
 
-  .contactContainer > h1 {
-    
+  .contactContainer > h2 {
+    color:#7ea8be;
+    display: block;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 10%;
+    margin-right: 5%;
   }
 
   .contactContainer > p {
