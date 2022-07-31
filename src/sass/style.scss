@@ -407,15 +407,23 @@ body {
 
   .contactContainer {
     background-color: #F9F366;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 20px;
     position: sticky;
     top: 0;
     z-index: 5;
     min-height: 100vh; //remove later
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contactContainer > h1 {
+    
+  }
+
+  .contactContainer > p {
+    
   }
 
   @media (max-width: 768px) {
@@ -425,9 +433,5 @@ body {
 } 
 
   .contactForm {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 20px;
+    
   }

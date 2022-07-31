@@ -4,15 +4,17 @@ import Main from './components/main';
 import Landing from './components/landing';
 import About from './components/about';
 import Projects from './components/projects';
-import Contact from './components/Contact';
+import ContactForm from './components/Contact';
 
 function App() {
 
-  const ref = useRef(null);
+  
 
   window.onbeforeunload = () => {
     window.scrollTo(0, 0);
   };
+
+  const ref = useRef(null);
 
   return (
     <div className="App">
@@ -27,7 +29,7 @@ function App() {
             <About ref={ref}/>
             
             <Projects/>
-            <Contact/>
+            <ContactForm/>
           </div>
         </div>
     </div>

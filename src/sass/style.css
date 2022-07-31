@@ -488,6 +488,11 @@ body {
 
 .contactContainer {
   background-color: #F9F366;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  min-height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -501,34 +506,11 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 20px;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  z-index: 5;
-  min-height: 100vh;
 }
 
 @media (max-width: 768px) {
   .contactContainer {
     position: relative;
   }
-}
-
-.contactForm {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-top: 20px;
 }
 /*# sourceMappingURL=style.css.map */
