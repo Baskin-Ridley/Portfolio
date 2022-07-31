@@ -1,5 +1,6 @@
 import React, { useCallback } from 'react'
 import useEmblaCarousel from 'embla-carousel-react'
+import SkillList from './skillList'
 //skill image imports
 import css from "../assets/skills/css-3.svg"
 import html from "../assets/skills/html-5.svg"
