@@ -552,7 +552,7 @@ body {
 }
 
 .formSubmit {
-  background-color: #7ea8be;
+  background-color: #F9F366;
   width: 100%;
   height: 40px;
   border: solid 2px #7ea8be;
@@ -561,5 +561,13 @@ body {
   margin-bottom: 10px;
   font-size: 1.17em;
   font-weight: bold;
+  text-align: center;
+  color: #7ea8be;
+  cursor: pointer;
+}
+
+.formSubmit:hover {
+  background-color: #7ea8be;
+  color: #F9F366;
 }
 /*# sourceMappingURL=style.css.map */
