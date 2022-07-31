@@ -21,7 +21,6 @@ import redux from "../assets/skills/redux.svg"
 const SkillList = () => {
   return (
     <div>
-      {/* Repeats */}
       <div className="embla__slide">
             <img className="embla__image" src={html} alt="html"></img>
             <div className="embla__slide__text">
@@ -112,7 +111,6 @@ const SkillList = () => {
               <h3>esLint</h3>
             </div>
           </div>
-          {/* Repeats */}
     </div>
   )
 }
