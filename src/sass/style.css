@@ -82,13 +82,6 @@ body {
       grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
 }
 
-@media (min-width: 769px) {
-  .portfolioContainer {
-    -webkit-animation: transition 1.5s ease-in-out;
-            animation: transition 1.5s ease-in-out;
-  }
-}
-
 @media (max-width: 768px) {
   .portfolioContainer {
     -ms-grid-columns: 1fr;
@@ -126,6 +119,9 @@ body {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
+  z-index: 6;
+  -webkit-animation: transition 1.5s ease-in-out;
+          animation: transition 1.5s ease-in-out;
 }
 
 @media (max-width: 768px) {
