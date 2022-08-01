@@ -12,7 +12,7 @@ function ContactForm() {
         <a href="https://github.com/Baskin-Ridley" target="_blank" rel="noopener noreferrer">
           <img src={github} alt="github" className="socialIcon" />
         </a>
-        <a href="linkedin.com/in/gabriel-edward-baskin-ridley-0732671a0" target="_blank" rel="noopener noreferrer">
+        <a href="https://linkedin.com/in/gabriel-edward-baskin-ridley-0732671a0" target="_blank" rel="noopener noreferrer">
           <img src={linkedin} alt="linkedin" className="socialIcon" />
         </a>
         </div>
@@ -56,7 +56,7 @@ function ContactForm() {
         <a href="https://github.com/Baskin-Ridley" target="_blank" rel="noopener noreferrer">
           <img src={github} alt="github" className="socialIcon" />
         </a>
-        <a href="linkedin.com/in/gabriel-edward-baskin-ridley-0732671a0" target="_blank" rel="noopener noreferrer">
+        <a href="https://linkedin.com/in/gabriel-edward-baskin-ridley-0732671a0" target="_blank" rel="noopener noreferrer">
           <img src={linkedin} alt="linkedin" className="socialIcon" />
         </a>
       </div>
