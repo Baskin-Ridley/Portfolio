@@ -407,7 +407,7 @@ body {
     position: sticky;
     top: 0;
     z-index: 5;
-    min-height: 100vh; //remove later
+    min-height: 100vh; 
   
     display: flex;
     flex-direction: column;
@@ -432,16 +432,10 @@ body {
     font-weight: bold;
   }
 
-  .contactContainer > h2 {
-    color:#7ea8be;
-    display: block;
-    font-weight: bold;
-    font-size: 1.5em;
-    margin-top: 0.83em;
-    margin-bottom: 0.83em;
-    margin-left: 10%;
-    margin-right: 5%;
+  .contactHeader {
+    align-items: center;
   }
+
 
   .contactContainer > p {
     margin-left: 10%;
