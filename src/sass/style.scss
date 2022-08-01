@@ -89,7 +89,7 @@ body {
     
     margin-left: 10%;
     margin-right: 30%;
-    height:100vh; // look into changing for mobile
+    height: 100vh; // look into changing for mobile
     color:  #c7f9cc;
     animation: textAppear 5s ease-in-out;
     animation-delay: 100s;
@@ -170,6 +170,7 @@ body {
   z-index: 2;
   gap: 0px;
   background-color: #c7f9cc;
+  
 }
 
 @media (max-width: 768px) {
@@ -213,6 +214,7 @@ body {
     top: 0;
     z-index: 3;
     min-height: 100vh;
+    
 }
 
 @media (max-width: 768px) {
