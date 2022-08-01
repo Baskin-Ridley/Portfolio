@@ -7,7 +7,7 @@ function ContactForm() {
   if (state.succeeded) {
     return (
       <div className="contactContainer">
-        <h1 className="contactHeader">Thanks for the Email, I will be touch soon!</h1>
+        <h1 className="contactHeader">Thanks for the Email, I will be in touch soon!</h1>
         <div className="socialContainer">
         <a href="https://github.com/Baskin-Ridley" target="_blank" rel="noopener noreferrer">
           <img src={github} alt="github" className="socialIcon" />
@@ -22,7 +22,7 @@ function ContactForm() {
   return (
     <div className="contactContainer">
       <h2 className="contactHeader">Contact Me</h2>
-      <p className="contactText">I am currently looking for a role as a developer. If you have a question, an other, or just want to chat, shoot me a message!</p>
+      <p className="contactText">I am currently looking for a role as a developer. If you have a question, an offer, or just want to chat, shoot me a message!</p>
       <form onSubmit={handleSubmit}>
         <label htmlFor="email">
           
