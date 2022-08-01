@@ -252,7 +252,11 @@ body {
   z-index: 2;
   gap: 0px;
   background-image: url("../assets/pexels-vincent-tan-6934325534.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   background-color: #c7f9cc;
+  width: 100%;
+  height: 100vh;
 }
 
 @media (max-width: 768px) {
