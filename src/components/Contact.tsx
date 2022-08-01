@@ -1,12 +1,21 @@
 import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
+import github from "../assets/socials/github-icon.svg"
+import linkedin from "../assets/socials/linkedin-icon.svg"
 function ContactForm() {
   const [state, handleSubmit] = useForm("moqbaeow");
   if (state.succeeded) {
     return (
       <div className="contactContainer">
         <h1 className="contactHeader">Thanks for the Email, I will be touch soon!</h1>
-        
+        <div className="socialContainer">
+        <a href="https://github.com/Baskin-Ridley" target="_blank" rel="noopener noreferrer">
+          <img src={github} alt="github" className="socialIcon" />
+        </a>
+        <a href="linkedin.com/in/gabriel-edward-baskin-ridley-0732671a0" target="_blank" rel="noopener noreferrer">
+          <img src={linkedin} alt="linkedin" className="socialIcon" />
+        </a>
+        </div>
       </div>
     )
   }
@@ -43,6 +52,14 @@ function ContactForm() {
           Submit
         </button>
       </form>
+      <div className="socialContainer">
+        <a href="https://github.com/Baskin-Ridley" target="_blank" rel="noopener noreferrer">
+          <img src={github} alt="github" className="socialIcon" />
+        </a>
+        <a href="linkedin.com/in/gabriel-edward-baskin-ridley-0732671a0" target="_blank" rel="noopener noreferrer">
+          <img src={linkedin} alt="linkedin" className="socialIcon" />
+        </a>
+      </div>
     </div>
   );
 }
