@@ -317,6 +317,11 @@ body {
   line-height: 1.5em;
 }
 
+u {
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}
+
 .techStack {
   width: 100%;
 }

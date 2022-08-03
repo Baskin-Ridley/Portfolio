@@ -31,7 +31,7 @@ const About = forwardRef((props, ref) => {
             Secondly, I have a drive like few others, over the last few months I have self-taught myself full stack web-dev, this shows that I am capable of learning, building, and delivering.
             </p>
           <h2 className="techTitle">Technical Skills</h2>
-            <p className="techSkills"> Through learning WebDev I have learnt React, TypeScript, JavaScript, SASS, and on the backend MongoDB and FireBase.</p>
+            <p className="techSkills"> I work with <u>React</u>, <u>TypeScript</u>, <u>JavaScript</u>, <u>SASS</u>, and on the backend <u>MongoDB</u> and <u>FireBase</u>.</p>
             <div className="techStack"><EmblaCarousel/></div>
       </div>
     
