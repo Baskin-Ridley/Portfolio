@@ -285,6 +285,9 @@ body {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background-color: #c7f9cc;
   position: -webkit-sticky;
   position: sticky;
@@ -315,6 +318,7 @@ body {
   margin-left: 10%;
   margin-right: 5%;
   line-height: 1.5em;
+  font-size: medium;
 }
 
 u {
@@ -384,6 +388,16 @@ u {
   top: 0;
   z-index: 4;
   min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 @media (max-width: 768px) {
@@ -396,6 +410,16 @@ u {
   background-color: #fec9f1;
   margin-left: 10%;
   margin-right: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .projectsTitle {
@@ -456,9 +480,10 @@ u {
 .projectImage {
   width: 90%;
   height: 90%;
-  margin-top: 0.83em;
   -o-object-fit: contain;
      object-fit: contain;
+  -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2), 0 0 0 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2), 0 0 0 0 rgba(0, 0, 0, 0.19);
 }
 
 .contactContainer {
