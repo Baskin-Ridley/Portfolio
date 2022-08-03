@@ -21,14 +21,14 @@ const About = forwardRef((props, ref) => {
           
           Growing up I had always been interested in tech, building my own computers, jailbreaking my brothers iPod, rooting my android phones, and modding my game consoles.<br></br>
 
-          This became an interest in sysAdmin building my own server that delivered media content to my friends as family, functioned as a VPN, and handled our household automation.<br></br>
-
-          And now my latest tech-drive is all things programming.
+          Now I am excited for all things web development, from the design and interface to the backend.
           </p>
           <h2 className="whyMeTitle">Why Me?</h2>
-            <p className="whyMeText"> Unlike most new developers, I have a bachelors in History and I am currently employed in education for the past two years. This brings a few core advantages that I have over the average junior dev. Firstly, my communication skills are top-notch having run the gamut from writing engaging articles, speaking to senior management, presenting to classes, and communicating with parents. <br></br>
-
-            Secondly, I have a drive like few others, over the last few months I have self-taught myself full stack web-dev, this shows that I am capable of learning, building, and delivering.
+            <p className="whyMeText"> 
+            Unlike most new developers, I have a background in writing, communication, and traditional workplaces. This has made me a well rounded employee that is able to adapt to new environments.
+            <br></br>
+            I am also very selfdriven and I enjoy learning new things. Which is how I have completed <a href="https://www.theodinproject.com/about" target= "blank">The Odin Project</a>, and why I am looking for a new challenge.
+            
             </p>
           <h2 className="techTitle">Technical Skills</h2>
             <p className="techSkills"> I work with <u>React</u>, <u>TypeScript</u>, <u>JavaScript</u>, <u>SASS</u>, and on the backend <u>MongoDB</u> and <u>FireBase</u>.</p>
@@ -37,5 +37,7 @@ const About = forwardRef((props, ref) => {
     
   )
 });
+
+
 
 export default About;
