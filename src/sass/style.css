@@ -320,6 +320,7 @@ body {
 u {
   -webkit-text-decoration: underline dotted;
           text-decoration: underline dotted;
+  text-underline-offset: 3px;
 }
 
 .techStack {
