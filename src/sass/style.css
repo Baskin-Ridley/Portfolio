@@ -241,6 +241,12 @@ body {
   background-color: #fec9f1;
 }
 
+.mainLinks {
+  padding-top: 10em;
+  -webkit-animation: textAppear 2.5s ease-out 1;
+          animation: textAppear 2.5s ease-out 1;
+}
+
 .landing {
   position: -webkit-sticky;
   position: sticky;
