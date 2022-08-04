@@ -33,7 +33,7 @@ const About = forwardRef((props, ref) => {
             </br>
             <br>
             </br>
-            I am also very selfdriven and I enjoy learning new things. Which is how I have completed <a href="https://www.theodinproject.com/about" target= "blank">The Odin Project</a>, and why I am looking for a new challenge.
+            I am also very self-driven and I enjoy learning new things. Which is how I have completed <a href="https://www.theodinproject.com/about" target= "blank">The Odin Project</a>, and why I am looking for a new challenge.
             
             </p>
           <h2 className="techTitle">Technical Skills</h2>
