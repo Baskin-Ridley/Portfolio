@@ -27,10 +27,13 @@ const Projects = () => {
                             </br>
                             </p>
                             <p className="projectTechnologies">
-                                TypeScript, React, Redux, React-Router, REST API, and Figma
+                            TypeScript, React, Redux, React-Router, REST API, and Figma.
                             </p>
-                            <a href="https://baskin-ridley.github.io/Quizzical/" target= "blank"><button className="projectLinks">Live App</button></a>
-                            <a href="https://github.com/Baskin-Ridley/Quizzical" target= "blank"><button className="projectLinks">Github</button></a>
+                            <div className="projectLinksContainer">
+                                <a href="https://baskin-ridley.github.io/Quizzical/" target= "blank"><button className="projectLinks">Live App</button></a>
+                                <a href="https://github.com/Baskin-Ridley/Quizzical" target= "blank"><button className="projectLinks">Github</button></a>
+                            </div>
+
                         
                         
                     </div>  

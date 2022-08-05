@@ -475,6 +475,13 @@ u {
   margin-bottom: 1em;
 }
 
+.projectLinksContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 15px;
+}
+
 .projectLinks {
   background-color: #fec9f1;
   border: solid 2px #7ea8be;
