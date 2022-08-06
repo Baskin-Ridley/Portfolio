@@ -1,5 +1,5 @@
 import React from 'react'
-import portrait from "../assets/pexels-vincent-tan-6934325534.jpg"
+import portrait from "../assets/Gabriel Baskin-Ridley Portrait.webp"
 
 const Landing = () => {
   return (
