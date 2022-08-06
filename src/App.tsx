@@ -8,6 +8,7 @@ import ContactForm from './components/Contact';
 
 function App() {
 
+  document.documentElement.style.setProperty('--viewport-height', `${window.innerHeight}px`);
   
 
   window.onbeforeunload = () => {
