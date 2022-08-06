@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.e4c4cf10.css",
-    "main.js": "/portfolio/static/js/main.470fd2b1.js",
+    "main.css": "/portfolio/static/css/main.ed2e249e.css",
+    "main.js": "/portfolio/static/js/main.e9665071.js",
     "static/js/787.0c3f432a.chunk.js": "/portfolio/static/js/787.0c3f432a.chunk.js",
     "static/media/quizzical.apng": "/portfolio/static/media/quizzical.79207ced571d0a99b0f0.apng",
-    "static/media/Gabriel Baskin-Ridley Portrait.webp": "/portfolio/static/media/Gabriel Baskin-Ridley Portrait.d7fa1a95e6abb967d567.webp",
+    "static/media/Gabriel Baskin-Ridley Portrait.webp": "/portfolio/static/media/Gabriel Baskin-Ridley Portrait.7527c64dd3aba8b008a9.webp",
     "static/media/Roboto-Regular.ttf": "/portfolio/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
     "static/media/mongodb.svg": "/portfolio/static/media/mongodb.153b7b440efa05666029a47da0d0baa0.svg",
     "static/media/nodejs.svg": "/portfolio/static/media/nodejs.5a3a9ca294db0539884810b6e6eafedd.svg",
@@ -24,12 +24,12 @@
     "static/media/linkedin-icon.svg": "/portfolio/static/media/linkedin-icon.9bd7e6453c3131532672b02aba2bcf26.svg",
     "static/media/npm.svg": "/portfolio/static/media/npm.4ae99ecf9272452adda8c8ef1841f760.svg",
     "index.html": "/portfolio/index.html",
-    "main.e4c4cf10.css.map": "/portfolio/static/css/main.e4c4cf10.css.map",
-    "main.470fd2b1.js.map": "/portfolio/static/js/main.470fd2b1.js.map",
+    "main.ed2e249e.css.map": "/portfolio/static/css/main.ed2e249e.css.map",
+    "main.e9665071.js.map": "/portfolio/static/js/main.e9665071.js.map",
     "787.0c3f432a.chunk.js.map": "/portfolio/static/js/787.0c3f432a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e4c4cf10.css",
-    "static/js/main.470fd2b1.js"
+    "static/css/main.ed2e249e.css",
+    "static/js/main.e9665071.js"
   ]
 }
