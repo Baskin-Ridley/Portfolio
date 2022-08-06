@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.80dc6b98.css",
-    "main.js": "/portfolio/static/js/main.b32e44a9.js",
+    "main.js": "/portfolio/static/js/main.4c09475a.js",
     "static/js/787.0c3f432a.chunk.js": "/portfolio/static/js/787.0c3f432a.chunk.js",
     "static/media/quizzical.apng": "/portfolio/static/media/quizzical.79207ced571d0a99b0f0.apng",
     "static/media/Gabriel Baskin-Ridley Portrait.webp": "/portfolio/static/media/Gabriel Baskin-Ridley Portrait.828d5750ff98e6e304a3.webp",
@@ -25,11 +25,11 @@
     "static/media/npm.svg": "/portfolio/static/media/npm.4ae99ecf9272452adda8c8ef1841f760.svg",
     "index.html": "/portfolio/index.html",
     "main.80dc6b98.css.map": "/portfolio/static/css/main.80dc6b98.css.map",
-    "main.b32e44a9.js.map": "/portfolio/static/js/main.b32e44a9.js.map",
+    "main.4c09475a.js.map": "/portfolio/static/js/main.4c09475a.js.map",
     "787.0c3f432a.chunk.js.map": "/portfolio/static/js/787.0c3f432a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.80dc6b98.css",
-    "static/js/main.b32e44a9.js"
+    "static/js/main.4c09475a.js"
   ]
 }
