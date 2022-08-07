@@ -6,7 +6,9 @@ https://baskin-ridley.github.io/portfolio/
 
 I had spent a lot of time practicing my JavaScript and React but had been neglecting my CSS skills. Which is why a visual first project like a portfolio would be perfect too get my CSS up to speed.
 
-This is a portfolio website for my personal projects, it is built using React, TypeScript, and Sass. It is fully responsive and works on mobile, tablet, and desktop. It is hosted on Github Pages.
+This is a portfolio website for my personal projects, it is built using React, TypeScript, and Sass. 
+
+Although it was built desktop first it is fully responsive and also works on mobile and tablet. It is hosted on Github Pages.
 
 ## What I learned
 
