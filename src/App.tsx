@@ -5,11 +5,8 @@ import Landing from './components/landing';
 import About from './components/about';
 import Projects from './components/projects';
 import ContactForm from './components/Contact';
-import ReactGA from 'react-ga';
-function App() {
 
-  ReactGA.initialize('G-1E5YH7J6F4');
-  ReactGA.pageview(window.location.pathname + window.location.search);
+function App() {
 
   
   document.documentElement.style.setProperty('--viewport-height', `${window.innerHeight}px`);
