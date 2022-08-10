@@ -28,12 +28,12 @@ const About = forwardRef((props, ref) => {
           </p>
           <h2 className="whyMeTitle">Why Me?</h2>
             <p className="whyMeText"> 
-            Unlike most new developers, I have a background in writing, communication, and traditional workplaces. This has made me a well rounded employee that is able to adapt to new environments.
+            Unlike most new developers, I have a background in writing, communication, and traditional workplaces. This has made me a well-rounded employee that is able to adapt to new environments.
             <br>
             </br>
             <br>
             </br>
-            I am also very self-driven and I enjoy learning new things. Which is how I have completed <a href="https://www.theodinproject.com/about" target= "blank">The Odin Project</a>, and why I am looking for a new challenge.
+            I am also very self-driven and I enjoy learning new things, which is how I have completed <a href="https://www.theodinproject.com/about" target= "blank">The Odin Project</a>, and why I am looking for a new challenge.
             
             </p>
           <h2 className="techTitle">Technical Skills</h2>
