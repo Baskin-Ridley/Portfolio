@@ -1,6 +1,6 @@
 # Portfolio
 
-https://baskin-ridley.github.io/portfolio/
+https://baskin-ridley.github.io/old-portfolio/
 
 ## Motivation
 
